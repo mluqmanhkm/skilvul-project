@@ -1,0 +1,38 @@
+#homepages .create-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homepages .create-box .wrapper-cb {
+  width: 50%;
+}
+
+#homepages .list-todo-box .card {
+  flex-direction: unset;
+}
+
+#homepages .list-todo-box .radio-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homepages .list-todo-box .radio-box input {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+#homepages .list-todo-box .wp-value {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#homepages .list-todo-box .wp-value .checked {
+  text-decoration: line-through #252525;
+}
+#homepages .list-todo-box .wp-action button {
+  margin: 5px 5px;
+}
